@@ -3,9 +3,9 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert('bands', [{
-      name: 'The Useful Books',
+      name: 'Golden Earring',
       genre: 'Rock',
-      available_start_time: '11:00:00',
+      available_start_time: '21:00:00',
       end_time: '23:00:00'
     }])
   },
